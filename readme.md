@@ -21,3 +21,8 @@ Ex: Input = ["Ryan", "Kieran", "Jason", "Yous"], Output = ["Ryan", "Yous"]
 Note: keep the original order of the names in the output.
 ```
 ## 2. Lessons learned
+### Arrow Functions
+The whole function should be an arrow function. Eg:
+```javascript
+const friend = friends => friends.filter(friend => friend.length === 4);
+```
